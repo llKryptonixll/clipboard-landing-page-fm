@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-cyan {
+        @apply bg-strong_cyan shadow-[inset_0_-4px_1px_rgba(0,0,0,.3)] drop-shadow-[0_15px_15px_hsla(171,66%,44%,.5)]
+    }
+    .btn-blue {
+        @apply bg-light_blue shadow-[inset_0_-4px_1px_rgba(0,0,0,.3)] drop-shadow-[0_15px_15px_hsla(233,100%,69%,.5)]
+    }
+  }
